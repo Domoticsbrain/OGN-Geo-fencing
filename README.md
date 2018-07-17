@@ -16,7 +16,6 @@ Step 3:
 Open file test_github.py
 
 Step 4:
-
 Change these parts:
 
     1.  Send text message
@@ -24,12 +23,12 @@ Change these parts:
         bot_chatID = 'YOUR_ID'
     
     
-    2. if(inRange_square(plane, 46.1368, 46.1796, 8.8374, 8.9057, 210, 1000)): #Your cordinate area
+    2. if(inRange_square(plane, #minLAT, #maxLat, #minLon, #maxLon, #minAlt, #maxAlt)): #Your cordinate area
     
     
     
-    
- Run test_github.py via terminal
+Step 5:
+Run test_github.py via terminal
     
  
 
