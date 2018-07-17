@@ -5,6 +5,7 @@ This code allows you to receive notifications via bot telegram bot when an aircr
 
 Step 1:
 git clone https://github.com/glidernet/python-ogn-client
+git clone https://github.com/python-telegram-bot/python-telegram-bot
 
 Step 2:
 Downlaod 1 https://github.com/Domoticsbrain/OGN-Geo-fencing/blob/master/test2_github.py
