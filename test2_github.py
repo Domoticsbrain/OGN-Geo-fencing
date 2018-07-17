@@ -29,7 +29,7 @@ if __name__=="__main__":
         mydict[k] = v
 
 def processPlane(plane):
-    if(inRange_square(plane, 46.1368, 46.1796, 8.8374, 8.9057, 210, 1000)): #Your cordinate area
+    if(inRange_square(plane, #minLAT, #maxLat, #minLon, #maxLon, #minAlt, #maxAlt)): #Your cordinate area
     
         print("The plane is in range")
         ground_speed = round(plane.get('ground_speed', 0.0), 0)
