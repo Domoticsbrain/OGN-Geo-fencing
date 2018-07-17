@@ -29,7 +29,7 @@ Change these parts:
     
     
     
-    
+ Run test_github.py via terminal
     
  
 
