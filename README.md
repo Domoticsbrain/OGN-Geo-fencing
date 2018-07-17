@@ -5,10 +5,31 @@ This code allows you to receive notifications via bot telegram bot when an aircr
 
 Step 1:
 git clone https://github.com/glidernet/python-ogn-client
-git clone https://github.com/Domoticsbrain/OGN-Geo-fencing/blob/master/test2_github.py
-git clone 
 
 Step 2:
-Downlaod test2_github.py https://github.com/Domoticsbrain/OGN-Geo-fencing/blob/master/test2_github.py
+Downlaod 1 https://github.com/Domoticsbrain/OGN-Geo-fencing/blob/master/test2_github.py
+Downlaod 2 https://github.com/Domoticsbrain/OGN-Geo-fencing/blob/master/aerei.csv
 
+Put the two files inside python-ogn-client
+
+Step 3:
+Open file test_github.py
+
+Step 4:
+
+Change these parts:
+
+    1.  Send text message
+        bot_token = 'YOUR_API'      (You need to create a bot with Botfather and get your API key)
+        bot_chatID = 'YOUR_ID'
+    
+    
+    2. if(inRange_square(plane, 46.1368, 46.1796, 8.8374, 8.9057, 210, 1000)): #Your cordinate area
+    
+    
+    
+    
+    
+    
+ 
 
